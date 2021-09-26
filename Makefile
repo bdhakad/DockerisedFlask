@@ -43,3 +43,8 @@ profile:
 	python3 -m cProfile -s cumtime ./csvcli.py cvsops --file ext/input.csv --groupby last_name --applyname count --func npmedian | less
 
 all: install lint test
+
+
+# create and run app in docker 
+# docker build --tag=flask .
+# docker run -d --name flask -p 80:5001 flask:latest
