@@ -2,8 +2,8 @@ juypter:
 	@cd notebooks; PYTHONPATH=".." jupyter notebook api.ipynb
 
 setup:
-	python3 -m venv ~/.pia-aws
-	# source ~/.pia-aws/bin/activate
+	python3 -m venv ~/.DockerisedFlask
+	source ~/.DockerisedFlask/bin/activate
 
 env:
 	#Show information about environment
